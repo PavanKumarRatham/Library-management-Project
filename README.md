@@ -32,3 +32,26 @@ This application supports **Library Member** and **Librarian** roles with authen
 ---
 
 ## 🏗 Project Structure
+LibraryManagementSystem
+│
+├── DatabaseConnection.java // Database utility
+├── LibraryMember.java // Member entity
+├── Librarian.java // Admin operations
+├── MemberActions.java // Member operations
+└── MainClass.java // Application entry point
+
+
+---
+
+## 🛢 Database Details
+- Database: `jdbc_test`
+- Tables:
+  - `user`   (library members)
+  - `admin`  (librarian details)
+
+---
+
+## ▶ How to Run the Project
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/LibraryManagementSystem.git
